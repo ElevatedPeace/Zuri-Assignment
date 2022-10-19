@@ -1,0 +1,49 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.grid-container {
+  display: grid;
+  gap: 10px;
+  grid-template-areas: 
+  "a a a b"
+  "c c d d"
+  "c c e e"
+  ;
+}
+
+main div {
+    padding: 40px;
+}
+
+.a {
+  background: orangered;
+  text-align: center;
+  grid-area: a;
+}
+.b {
+  background: orange;
+  text-align: center;
+  grid-area: b;
+}
+.c {
+  background: green;
+  text-align: center;
+  grid-area: c;
+}
+.d {
+  background: lightblue;
+  text-align: center;
+  grid-area: d;
+}
+.e {
+  background: lightblue;
+  text-align: center;
+  grid-area: e;
+}
+ 
+
+
+
